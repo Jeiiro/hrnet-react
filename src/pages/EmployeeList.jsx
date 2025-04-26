@@ -28,11 +28,11 @@ function EmployeeList() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-300 p-6">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">HRnet</h1>
-          <Link to="/" className="text-blue-500 hover:underline mb-6 block">
+          <Link to="/" className="text-blue-700 hover:underline mb-6 block">
             Create Employee
           </Link>
           
