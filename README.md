@@ -91,8 +91,6 @@ Dans le cadre de ce projet, nous avons converti un plugin jQuery de fenêtre mod
 
 ### Caractéristiques du composant
 - Intégration native avec Tailwind CSS
-- Accessibilité améliorée (navigation au clavier, ARIA)
-- Animations fluides
 - Fermeture par clic à l'extérieur ou touche Échap
 - Personnalisation complète du contenu
 ### Installation du composant
