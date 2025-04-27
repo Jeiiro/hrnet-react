@@ -48,6 +48,7 @@ function EmployeeList() {
             data={filteredEmployees}
             columns={columns}
             emptyMessage="No employees found"
+            defaultItemsPerPage={25}
           />
         </div>
       </div>
