@@ -132,7 +132,7 @@ Par rapport à l'application jQuery d'origine, cette version React offre :
 - Temps de chargement réduit : Optimisation du bundle avec Vite
 - Rendu plus rapide : Utilisation du Virtual DOM de React
 - Meilleures performances : Compression des assets avec vite-plugin-compression
-- Optimisation des re-rendus : Utilisation de hooks comme useMemo
+- Optimisation des re-render : Utilisation de hooks comme useMemo
 - Meilleure maintenabilité : Architecture modulaire et composants isolés
 ## Contribution
 Les contributions sont les bienvenues ! Pour contribuer :
