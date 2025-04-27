@@ -63,10 +63,15 @@ npm run dev
 ```plaintext
 hrnet-react/
 ├── public/              # Fichiers statiques
+├── rapport_lighthouse/  # Rapports de performance
+│   ├── rapports_jquery/ # Rapports pour la version jQuery
+│   └── rapports_react/  # Rapports pour la version React
 ├── src/
 │   ├── components/      # Composants réutilisables
 │   │   ├── Input.jsx    # Composant de champ de saisie
+│   │   ├── Modal.jsx    # Composant de fenêtre modale
 │   │   ├── SearchBar.jsx # Composant de recherche
+│   │   ├── Select.jsx   # Composant de menu déroulant
 │   │   └── Table.jsx    # Composant de tableau
 │   ├── data/            # Données statiques
 │   │   └── states.js    # Liste des états américains
@@ -83,8 +88,9 @@ hrnet-react/
 ├── index.html           # Template HTML
 ├── vite.config.js       # Configuration de Vite
 ├── eslint.config.js     # Configuration ESLint
-└── package.json         # Dépendances et scripts
- ```
+├── package.json         # Dépendances et scripts
+└── README.md            # Documentation du projet
+```
 
 ## Composant Modal publié sur npm
 Dans le cadre de ce projet, nous avons converti un plugin jQuery de fenêtre modale en un composant React moderne, puis l'avons publié sur npm sous le nom @jeiiro/react-tailwind-modal .
